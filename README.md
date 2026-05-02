@@ -2,7 +2,9 @@
 
 A tiny `SKILL.md` that helps AI coding agents fix SaaS homepages and pricing pages.
 
-Free manual version of [FixSaaS.page](https://fixsaas.page).
+Want the automated version? SKILL.md is the free/manual version.
+
+[FixSaaS.page](https://fixsaas.page) runs the audit automatically and returns the full homepage + pricing rewrite without setting up Claude/Cursor.
 
 ## What it does
 

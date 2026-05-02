@@ -1,6 +1,6 @@
 ---
 name: fixsaas-page
-description: Audit and rewrite SaaS homepages and pricing pages. Use when the user asks for running a full audit of the SaaS landing page.
+description: Audit and rewrite SaaS homepages and pricing pages. Use when the user provides a SaaS URL, screenshots, page copy, repo files, or asks to improve landing page conversion, ICP clarity, hero copy, CTAs, pricing, trust, SEO, mobile UX, or implementation in Cursor/Lovable.
 ---
 
 # fixsaas-page
@@ -23,6 +23,10 @@ If repo files are available, inspect the homepage and pricing files before answe
 If only copy, screenshots, or a URL are available, audit from that input.
 
 If files can be edited, return exact file/component changes. If files cannot be edited, return a paste-ready implementation prompt.
+
+If no repo, Lighthouse report, or performance data is available, do not invent metrics. Only flag likely speed risks and label them as “needs verification”.
+
+Only score SEO, mobile, and page speed when there is enough input to inspect them. If not enough input is available, mark the score as “not verifiable” and explain what input is needed.
 
 ## Audit
 
